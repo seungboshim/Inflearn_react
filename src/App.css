@@ -36,3 +36,322 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+li {list-style: none;}
+a {text-decoration-line: none;}
+.font {font-family: "AppleSDGothicNeoM00";}
+
+.textbox{
+    padding: 16px
+}
+
+#header{
+    height: 40px;
+}
+
+.wrap{
+    height: 100%;
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_left{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_right{
+    margin-left: auto;
+}
+
+.header_content{
+    display: inline-block;
+    padding: 12px;
+}
+
+#navbar{
+    border-top: 1px solid rgb(241,243,245);
+    border-bottom: 1px solid rgb(241,243,245);
+    height: 64px;
+}
+
+.nav_content_logo{
+    display: inline-block;
+    object-fit: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.nav_content_text{
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.nav_content_box{
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.nav_left{
+    display: flex;
+    justify-content: left;
+}
+
+.nav_right{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.nav_gray_button{
+    border: 1px solid rgb(219,219,219);
+    border-radius: 3px;
+    margin-left: 16px;
+    padding: 8px;
+    margin-right: 4px;
+}
+
+.nav_red_button{
+    border: 1px solid rgb(219,219,219);
+    border-radius: 3px;
+    background-color: rgb(255,120,103);
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 16px;
+}
+
+#mylearning{
+    font-family: "AppleSDGothicNeoM00";
+}
+
+.title{
+    height: 18px;
+    background-color: #333b3d;
+    padding: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+}
+
+.title_wrap{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.sidebar{
+    width: 200px;
+}
+
+.myclass{
+    width: 824px;
+    font-family: "AppleSDGothicNeoM00";
+}
+
+.side_container{
+    padding: 28px 16px;
+}
+
+.menu_label{
+    color: #cfcfcf;
+    font-size: .75em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.menu{
+    padding: .5em .75em;
+}
+
+.btn_wrap{color: black;}
+
+.btn_select{color: #1dc078; font-weight: bold;}
+
+.myclass_container{
+    padding: 16px 12px;
+}
+
+.myclass_tab{
+    height: 30px;
+    border-bottom: 1px solid #f1f3f5;
+    margin: 12px 0;
+}
+
+.tab_list{
+    display: flex;
+    flex-direction: row;
+    font-size: .875rem;
+    font-weight: bold;
+    position: relative;
+    bottom: -10px;
+}
+
+.tab_item{
+    margin-right: 30px;
+
+}
+
+.tab_item_link{
+    color: #abb0b5;
+    line-height: 1.47;
+}
+
+.active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.myclass_button{
+    height: 36px;
+    margin-top: 8px;
+}
+
+.btn_new{
+    font-family: "AppleSDGothicNeoM00";
+    padding: 0 1rem;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: .875rem;
+    font-weight: 700;
+    color: #495057;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 1px #ced4da;
+    background-color: #fff;
+    margin-left: 8px;
+    float: right;
+}
+
+.myclass_list{
+    height: 500px;
+    padding-top: 8px;
+}
+
+.mylist{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+    height: 94px;
+    box-shadow: 0 0 0 1px #e9ecee;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.handle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 34px;
+    height: 100%;
+    background-color: #f5f7f8;
+    cursor: pointer;
+}
+
+.handle i {
+    opacity: .3;
+}
+
+.mylist_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.list_content{
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin: 0 1.25rem;
+    width: 100%;
+    max-width: 640px;
+}
+
+.list_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.course_count{
+    font-size: .875rem;
+    color: #59605d;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.course_name{
+    color: black;
+}
